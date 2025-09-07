@@ -45,6 +45,7 @@ This project implements a machine learning model to predict Customer Lifetime Va
 Customer-LTV-Prediction/
 ├──  README.md                           # Project documentation
 ├──  requirements.txt                    # Python dependencies
+├── Customer_LTV_Prediction_Report.pdf
 ├──  data/
 │   └──  OnlineRetail.csv               # Raw dataset (541K+ transactions)
 ├──  notebooks/
