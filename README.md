@@ -5,10 +5,10 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-1.5+-green.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
 
-## 🎯 Project Overview
+##  Project Overview
 This project implements a machine learning model to predict Customer Lifetime Value (LTV) based on purchase behavior, enabling targeted marketing strategies and customer segmentation.
 
-## 📊 Key Results
+##  Key Results
 
 ### Model Performance
 | Model | MAE | RMSE | R² Score |
@@ -32,7 +32,7 @@ This project implements a machine learning model to predict Customer Lifetime Va
 
 *Performance comparison across different machine learning algorithms*
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Python**: Primary programming language
 - **Scikit-learn**: Machine learning framework
 - **XGBoost**: Gradient boosting algorithm for regression
@@ -40,30 +40,30 @@ This project implements a machine learning model to predict Customer Lifetime Va
 - **Matplotlib/Seaborn**: Data visualization
 - **Jupyter Notebook**: Development environment
 
-## 📁 Project Structure
+## Project Structure
 ```
 Customer-LTV-Prediction/
-├── 📄 README.md                           # Project documentation
-├── 📄 requirements.txt                    # Python dependencies
-├── 📂 data/
-│   └── 📊 OnlineRetail.csv               # Raw dataset (541K+ transactions)
-├── 📂 notebooks/
-│   ├── 📓 01_EDA_and_RFM_Analysis.ipynb  # Exploratory Data Analysis
-│   ├── 📓 02_RFM_Feature_Engineering.ipynb # Feature engineering
-│   └── 📓 03_LTV_Model_Training.ipynb    # Model training & evaluation
-├── 📂 results/
-│   ├── 📊 data_cleaned.csv               # Preprocessed data
-│   ├── 📊 customer_summary.csv           # Customer statistics
-│   ├── 📊 rfm_features.csv               # RFM features
-│   └── 📊 final_ltv_predictions.csv      # Final predictions
-└── 📂 visualizations/
-    ├── 📈 feature_correlation.png         # Feature correlation matrix
-    ├── 📈 rfm_analysis.png               # RFM analysis charts
-    ├── 📈 model_comparison.png            # Model performance comparison
-    └── 📈 final_ltv_analysis.png          # Final analysis visualizations
+├──  README.md                           # Project documentation
+├──  requirements.txt                    # Python dependencies
+├──  data/
+│   └──  OnlineRetail.csv               # Raw dataset (541K+ transactions)
+├──  notebooks/
+│   ├──  01_EDA_and_RFM_Analysis.ipynb  # Exploratory Data Analysis
+│   ├──  02_RFM_Feature_Engineering.ipynb # Feature engineering
+│   └──  03_LTV_Model_Training.ipynb    # Model training & evaluation
+├──  results/
+│   ├──  data_cleaned.csv               # Preprocessed data
+│   ├──  customer_summary.csv           # Customer statistics
+│   ├──  rfm_features.csv               # RFM features
+│   └──  final_ltv_predictions.csv      # Final predictions
+└──  visualizations/
+    ├── feature_correlation.png         # Feature correlation matrix
+    ├──  rfm_analysis.png               # RFM analysis charts
+    ├──  model_comparison.png            # Model performance comparison
+    └──  final_ltv_analysis.png          # Final analysis visualizations
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 ```bash
@@ -84,13 +84,13 @@ jupyter notebook notebooks/02_RFM_Feature_Engineering.ipynb
 jupyter notebook notebooks/03_LTV_Model_Training.ipynb
 ```
 
-## 📈 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
-- ✅ Remove missing CustomerIDs (135K records)
-- ✅ Handle negative quantities/prices
-- ✅ Calculate transaction amounts
-- ✅ Remove outliers using IQR method
+-  Remove missing CustomerIDs (135K records)
+-  Handle negative quantities/prices
+-  Calculate transaction amounts
+-  Remove outliers using IQR method
 
 ### 2. Feature Engineering
 - **RFM Analysis**: Recency, Frequency, Monetary features
@@ -115,7 +115,7 @@ jupyter notebook notebooks/03_LTV_Model_Training.ipynb
 | At Risk | 567 | $987 | Valuable but haven't purchased recently |
 | Hibernating | 1,440 | $234 | Lost customers - need reactivation |
 
-## 🎯 Business Impact
+##  Business Impact
 
 ### Key Insights
 1. **Top 20% customers** generate **67% of total revenue**
@@ -124,12 +124,12 @@ jupyter notebook notebooks/03_LTV_Model_Training.ipynb
 4. **Customer tenure** averages 133 days with high variance
 
 ### Actionable Recommendations
-- 🎯 **Focus marketing budget** on Champions and Loyal segments
-- 📧 **Reactivation campaigns** for At Risk customers
-- 🔄 **Retention programs** for Potential Loyalists
-- 📊 **Personalized offers** based on predicted LTV
+-  **Focus marketing budget** on Champions and Loyal segments
+-  **Reactivation campaigns** for At Risk customers
+-  **Retention programs** for Potential Loyalists
+-  **Personalized offers** based on predicted LTV
 
-## 📊 Results & Performance
+##  Results & Performance
 
 ### Final Model Metrics
 - **Mean Absolute Error**: 187.23
@@ -143,35 +143,35 @@ jupyter notebook notebooks/03_LTV_Model_Training.ipynb
 
 *Strong correlation between actual and predicted LTV values*
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 - [ ] Time-series forecasting for dynamic LTV
 - [ ] Real-time prediction API
 - [ ] A/B testing framework
 - [ ] Advanced clustering algorithms
 - [ ] Integration with CRM systems
 
-## 📊 Dataset Information
+##  Dataset Information
 - **Source**: UCI Machine Learning Repository
 - **Period**: December 2010 - December 2011
 - **Records**: 541,909 transactions
 - **Customers**: 4,372 unique customers
 - **Countries**: 37 countries (mainly UK)
 
-## 🤝 Contributing
+##  Contributing
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📄 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+##  Contact
 - **Author**: Srusti
 - **Email**: 1nt23ad052.srusti@nmit.ac.in
-- **LinkedIn**: [Srusti's LinkedIn Profile]([https://linkedin.com/in/srusti](https://www.linkedin.com/in/srusti-u-4a86692a2))
-- **Project Link**: [https://github.com/srusti/Customer-LTV-Prediction]([https://github.com/srusti/Customer-LTV-Prediction](https://github.com/Srusti-26/customer-lifetime-value-prediction)
+- **LinkedIn**: [Srusti's LinkedIn Profile](https://www.linkedin.com/in/srusti-u-4a86692a2)
+- **Project Link**: [https://github.com/srusti/Customer-LTV-Prediction](https://github.com/Srusti-26/customer-lifetime-value-prediction)
 
 ---
 
