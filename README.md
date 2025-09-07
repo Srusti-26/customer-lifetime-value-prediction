@@ -169,9 +169,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 - **Author**: Srusti
-- **Email**: srusti@example.com
-- **LinkedIn**: [Srusti's LinkedIn Profile](https://linkedin.com/in/srusti)
-- **Project Link**: [https://github.com/srusti/Customer-LTV-Prediction](https://github.com/srusti/Customer-LTV-Prediction)
+- **Email**: 1nt23ad052.srusti@nmit.ac.in
+- **LinkedIn**: [Srusti's LinkedIn Profile]([https://linkedin.com/in/srusti](https://www.linkedin.com/in/srusti-u-4a86692a2))
+- **Project Link**: [https://github.com/srusti/Customer-LTV-Prediction]([https://github.com/srusti/Customer-LTV-Prediction](https://github.com/Srusti-26/customer-lifetime-value-prediction)
 
 ---
 
