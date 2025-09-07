@@ -68,7 +68,7 @@ Customer-LTV-Prediction/
 
 ### Installation
 ```bash
-git clone https://github.com/srusti/Customer-LTV-Prediction.git
+git clone https://github.com/Srusti-26/Customer-LTV-Prediction.git
 cd Customer-LTV-Prediction
 pip install -r requirements.txt
 ```
